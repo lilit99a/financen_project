@@ -1,8 +1,6 @@
-#container {
-  font-family: Arial, Helvetica, sans-serif;
-}
 body {
   background-color: #fafafa;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .headerAndTextImage {
   background-image: url("../images/background.png");
@@ -151,4 +149,256 @@ header button {
 }
 .getQuoteAndLearnMoreButtons {
   margin-top: 35px;
+}
+.whatClientsSayText p:first-child {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+.whatClientsSayText p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  margin: 0px;
+  margin-top: 10px;
+}
+.whatClientsSayText {
+  text-align: center;
+  margin-top: 112px;
+}
+.whatClientsSayItem {
+  margin-top: 55.47px;
+  margin-bottom: 112px;
+}
+.whatClientSayUser {
+  display: flex;
+  width: 332px;
+  height: Hug(248.01) px;
+  background: #ffffff;
+  width: 507px;
+}
+.whatClientsSayTwoItems {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+.clientItem :first-child {
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+  margin-bottom: 0px;
+}
+
+.clientItem p:nth-child(2) {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  margin: 0px;
+}
+.clientItem ul {
+  list-style: none;
+  display: flex;
+  padding: 0px;
+}
+.clientItem p:nth-child(4) {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.clientItem {
+  width: 332px;
+  height: Hug(248.01) px;
+  padding: 40px 30px 40px 30px;
+}
+.textsAboutUs {
+  text-align: center;
+  margin-bottom: 96px;
+}
+.videoAndMostTrustedItems {
+  display: flex;
+  justify-content: space-around;
+}
+.playImagesItem {
+  background-image: url(../images/video1.jpg);
+  height: 442px;
+  width: 592px;
+}
+.mostTrustedImgAndTheQuickText {
+  display: flex;
+}
+.theQuickForJumpsIcon {
+  width: 32px;
+  height: 32px;
+  margin-right: 20.5px;
+}
+.textsAboutUs :first-child {
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+  margin: 0px;
+}
+.textsAboutUs :nth-child(2) {
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.opacityImage {
+  background-image: url(../images/filter.png);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.playButton {
+  width: 92.6px;
+  height: 92.6px;
+}
+.mostTustedTexts :first-child {
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.mostTustedTexts :nth-child(2) {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  margin-top: 0px;
+}
+.theQuickFoxJumpsText :first-child {
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+.theQuickFoxJumpsText :nth-child(2) {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.mostTrustedImgsAndTheQuickTextsItem {
+  margin-top: 50px;
+}
+.whatClientsSayItem {
+  margin-bottom: 224px;
+}
+.mostTrustedTextsAndIcons {
+  padding: 63px 90px 112px;
+}
+.pircingTitleTexts {
+  text-align: center;
+}
+.pircingTitleTexts :first-child {
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+  margin-bottom: 10px;
+}
+.pircingTitleTexts :nth-child(2) {
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+.pircingItems {
+  margin-top: 112px;
+}
+.selectGreenButton {
+  background-color: #2dc071;
+  width: 32px;
+  height: 32px;
+  border-radius: 200px;
+  cursor: pointer;
+}
+.freeItems {
+  width: 253px;
+  height: Hug(641) px;
+  padding: 50px 70px 50px 70px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: solid 1px #23a6f0;
+}
+.tityleFree :first-child {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+.tityleFree :nth-child(2) {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #737373;
+}
+.tityleFree {
+  text-align: center;
+}
+.free0DolarItem div:first-child {
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 0.2px;
+}
+.doloarAndPerMonth :first-child {
+  margin: 0px;
+}
+.doloarAndPerMonth {
+  margin-left: 10px;
+}
+.doloarAndPerMonth :nth-child(2) {
+  margin: 0px;
+}
+.free0DolarItem {
+  display: flex;
+  color: #23a6f0;
+  align-items: center;
+  justify-content: right;
+  width: 200px;
+}
+.selectedTexts {
+  margin-top: 44px;
+}
+.selectedTexts div {
+  margin-top: 10px;
+}
+.tryForFreeAndBuyNowButtons {
+  width: 279px;
+  height: 52px;
+  padding: 15px, 40px, 15px, 40px;
+  background: #23a6f0;
+  border-radius: 5px;
+  color: #ffffff;
+  margin-top: 35px;
+  cursor: pointer;
+}
+.selectGreyButton {
+  background-color: #bdbdbd;
+  width: 32px;
+  height: 32px;
+  border-radius: 200px;
+  cursor: pointer;
+}
+.freeAndStandartItems{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 80px;
 }
