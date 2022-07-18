@@ -1,0 +1,247 @@
+@media screen and (max-width: 576px) {
+  header {
+    display: none;
+  }
+  .mobileHeader {
+    display: initial;
+    width: 414px;
+    height: 532px;
+    background-color: #f6f6f6;
+  }
+  .mobileHeader nav a {
+    text-decoration: none;
+  }
+  .yourFinText {
+    font-size: 40px;
+    text-align: center;
+  }
+  .yourFinancialAndItem {
+    text-align: center;
+  }
+  .yourFinText {
+    margin-top: 64px;
+  }
+  .weKnowHowText {
+    display: none;
+  }
+  .weKnowHowTextForMobile {
+    display: initial;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .getQuoteAndLearnMoreButtons {
+    display: none;
+  }
+  .getQuoteAndLearnMoreButtonsForMobile {
+    display: initial;
+  }
+  .getQuoteAndLearnMoreButtonsForMobile div:first-child {
+    font-size: 14px;
+    padding: 35px 114.5px 30px 114.5px;
+  }
+  .getQuoteAndLearnMoreButtonsForMobile :first-child {
+    width: 185px;
+    height: 42px;
+  }
+  .getQuoteAndLearnMoreButtonsForMobile :nth-child(2) {
+    width: 167px;
+    height: 42px;
+    font-size: 14px;
+  }
+  .learnMoreButton {
+    width: 174px;
+  }
+  .getQuoteAndLearnMoreButtonsForMobile :nth-child(2) {
+    padding: 0px 114px 40px 114px;
+  }
+  .yourFinancialPhoto {
+    width: 301px;
+    height: 403px;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: -4px;
+  }
+  .betterStrategyTexts {
+    display: none;
+  }
+  .betterStrategyTextForMobile {
+    display: initial;
+    font-size: 40px;
+    text-align: center;
+  }
+  .qualityBusinessItems {
+    display: initial;
+  }
+  .qualityBusinessItemPhotoForMobile {
+    display: initial;
+  }
+  .qualityBusinessItems {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 75px;
+  }
+  .qualityBusinessItemPhoto {
+    display: none;
+  }
+  .qualityBusinessItem {
+    background-color: #ffffff;
+    width: 230px;
+    height: 203px;
+    padding: 30px, 40px, 30px, 40px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .qualityBusinessItem p:nth-child(2) {
+    font-size: 35px;
+  }
+  .whatClientSayUser {
+    flex-wrap: wrap;
+    width: 332px;
+  }
+  .clientPhoto {
+    display: none;
+  }
+  .clientPhotoForMobile {
+    display: initial;
+  }
+  .whatClientSayUser {
+    margin-bottom: 30px;
+  }
+  .whatClientsSayText {
+    display: none;
+  }
+  .whatClientsSayTextForMobile {
+    display: initial;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  .whatClientsSayTextForMobile :first-child {
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 0.2px;
+    color: #252b42;
+  }
+  .whatClientsSayItem {
+    margin-bottom: 85px;
+  }
+  .whatClientsSayTextForMobile :nth-child(2) {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+  }
+  .aboutUsItem {
+    background-color: #ffffff;
+    margin-top: 85px;
+  }
+  .textsAboutUsForMobile {
+    display: initial;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-top: 10px;
+  }
+  .problemsText {
+    display: none;
+  }
+  .textsAboutUs {
+    padding-top: 59px;
+  }
+  .mostTustedTexts {
+    width: 330px;
+    height: auto;
+  }
+  .mostTustedTexts :first-child {
+    font-size: 40px;
+  }
+  .theQuickForJumpsIcon {
+    display: none;
+  }
+  .theQuickForJumpsIconMobile {
+    display: initial;
+    width: 32px;
+    height: 32px;
+    margin-right: 20.5px;
+  }
+  .mapItemAndContactUs {
+    display: none;
+  }
+  .freeItems {
+    margin-top: 10px;
+  }
+  .mostTrustedTextsAndIcons {
+    padding: 63px 36px 112px;
+  }
+  .mobileHeader {
+    display: initial;
+    width: 414px;
+    height: auto;
+    background-color: #ffffff;
+  }
+  .mobileHeaderTitleAndIcons {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 36px;
+  }
+  .mobileHeaderTitleAndIcons p:first-child {
+    margin: 0px;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.1px;
+    color: #252b42;
+  }
+  .navbarIcons img {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .mobileMenu {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 96px;
+  }
+  .mobileMenu ul li {
+    list-style: none;
+
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    cursor: pointer;
+  }
+  .contactWithUsMobile {
+    display: block;
+    text-align: center;
+    background: #252b42;
+  }
+  .contactWithUsMobile p:first-child {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #ffffff;
+  }
+  .emailInputAndSubscribeButton :nth-child(1) {
+    width: 247px;
+    height: 58px;
+    border: #ffffff;
+  }
+  .emailInputAndSubscribeButton :nth-child(2) {
+    background-color: #23a6f0;
+    height: 60px;
+    width: 117px;
+    color: #ffffff;
+    border: #23a6f0;
+    margin-left: -9px;
+  }
+  .contactWithUsMobile{
+    margin-top: 100px;
+    padding-top:90px;
+    padding-bottom: 90px;
+  }
+}
